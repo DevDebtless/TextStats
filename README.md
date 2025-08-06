@@ -27,12 +27,12 @@ swift build
 
 ### 3. Run the App  
 
-'''.build/debug/TextStats path/to/your/file.txt  
+'.build/debug/TextStats path/to/your/file.txt'  
 
 ### Or use the included Makefile:  
 
-'make build  
-'make run  
+'make build'   
+'make run'  
 
 ### Example Output  
 
@@ -54,6 +54,6 @@ TextStats/
 
 ### Makefile Commands ###  
 
-'make build	# Builds the Swift project  
-'make run 	# Runs the app with 'test.txt'  
-'make clean	# Cleans the build artifacts  
+'make build'	# Builds the Swift project  
+'make run'	# Runs the app with 'test.txt'  
+'make clean'	# Cleans the build artifacts  
