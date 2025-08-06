@@ -18,21 +18,22 @@ A simple Swift command-line tool that analyzes a '.txt' file and prints the numb
 
 ### 1. Clone the Repository  
 
+```bash
 git clone https://github.com/DevDebtless/TextStats.git  
 cd TextStats  
-
+```  
 ### 2. Build the Project  
 
-swift build  
+`swift build`  
 
 ### 3. Run the App  
 
-'.build/debug/TextStats path/to/your/file.txt'  
+`.build/debug/TextStats path/to/your/file.txt`  
 
 ### Or use the included Makefile:  
 
-'make build'   
-'make run'  
+`make build`   
+`make run`  
 
 ### Example Output  
 
@@ -42,7 +43,7 @@ Words: 43
 Characters: 259  
 
 ###  File Structure ###  
-
+```text
 TextStats/  
 	Makefile  
 	Package.swift  
@@ -51,9 +52,9 @@ TextStats/
 		TextStats/  
 			main.swift  
 	test.txt  
-
+```  
 ### Makefile Commands ###  
 
-'make build'	# Builds the Swift project  
-'make run'	# Runs the app with 'test.txt'  
-'make clean'	# Cleans the build artifacts  
+`make build`	# Builds the Swift project  
+`make run`	# Runs the app with 'test.txt'  
+`make clean`	# Cleans the build artifacts  
