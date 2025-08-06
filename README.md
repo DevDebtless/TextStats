@@ -44,14 +44,13 @@ Characters: 259
 
 ###  File Structure ###  
 ```text
-TextStats/  
-	Makefile  
-	Package.swift  
-	README.md  
-	Sources/  
-		TextStats/  
-			main.swift  
-	test.txt  
+.
+├── Makefile
+├── Package.swift
+├── README.md
+├── Sources
+│   └── main.swift
+└── test.txt  
 ```  
 ### Makefile Commands ###  
 
